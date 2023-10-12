@@ -1,0 +1,10 @@
+*{background-color: lightpink;
+text-align: center;}
+h1,p{color: white;}
+ul{list-style-type:numbers;
+     list-style-position: inside;
+      padding:20px ;height:40px;}
+
+img{width:150px;height: 170px;}
+.font{font-size:25px;}
+.color{color: #000000;}
