@@ -144,9 +144,9 @@
   grid-column:3/5;
  margin-top: 0px;
 } 
-/* Activity 5 styles */ 
+
 .content5 {
-  /* This is the parent of the activity 5 boxes. */
+
   height: 400px;
 
 }
@@ -171,8 +171,8 @@
   width: 800px; 
   height: 100px; 
   background-color: blue; 
-} 
-/* Activity 6 styles */ 
+}
+
 .content6 {
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -225,7 +225,6 @@
 } 
 
 
-/* Do not make any changes below here */
 .activity {
   width: 70%; 
   margin: 20px auto; 
