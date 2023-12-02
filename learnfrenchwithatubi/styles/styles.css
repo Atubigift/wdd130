@@ -183,6 +183,10 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
       width: auto;
       margin-bottom: 20px;
     }
+  
+  .button-box {
+    width: 100%; 
+    height: auto; }
   }
 
    
@@ -198,8 +202,12 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
       width: 80%; 
       height: auto;
       margin-bottom: 30px;
-    }
+   
+      .button-box {
+        width: 50%; 
+        height: 50px; 
   }
+
   @media screen and (min-width: 1024px) {
 
     nav {
@@ -214,4 +222,5 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
       margin-bottom: 40px;
       padding-top: 40px;
     }
+
   }
