@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arial:wght@300&family=Georgia&display=swap');
+
 #container {
 max-width : 1600px;
 margin : 0 auto;
@@ -204,7 +204,7 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
     img {
       width: 80%; 
       height: auto;
-      margin-bottom: 30px;
+      margin-bottom: 30px;}
    
     .button-box {
         width: 50%; 
@@ -216,13 +216,4 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
       margin-bottom: 40px;
       padding-top: 40px;
     }
-
-  @media screen and (min-width: 1024px) {
-
-    nav {
-      padding: 20px;
-      background-color: #A43312;
-      flex-direction: row;
-    }
-  
   }
