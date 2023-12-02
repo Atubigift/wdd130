@@ -1,0 +1,155 @@
+
+#container {
+    max-width : 1600px;
+    margin : 0 auto;
+    }
+header {
+display : grid;
+grid-template-columns : 150px auto;
+background-color : #A43312;
+width : 100%;
+border : black solid 10px;
+}
+nav {
+text-align : center;
+display : flex;
+justify-content : space-evenly;
+align-items : center;
+}
+
+nav a {
+color : white;
+text-decoration : none;
+font-size : large;
+}
+nav a:hover{background-color: #000000;
+    color:white}
+
+#logo_link {
+padding-top : 5px;
+justify-self : center;
+align-self : center;
+}
+
+
+.logo {
+border-radius : 50%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.question{
+    
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows:repeat(6,50px);
+
+}
+.traditions{margin-top: 30px;}
+
+.paragraph-one{
+
+    grid-column:1/5;
+    grid-row:1/7;
+    padding-left: 5px;
+
+}
+
+.paragraph-two{
+
+    grid-column:6/10;
+    grid-row:1/6;
+    padding-right:20px;
+}
+#hero{display:grid;
+grid-template-columns:repeat(9,1fr);
+grid-template-rows:repeat(9,50px);
+}
+
+.hero-box{grid-column: 1/10;
+    grid-row:1/10;    
+}
+.hero-img{width:100%;
+height: 100%;}
+
+h2{padding-left: 20px;
+padding-top: 50px;}
+
+
+p{
+    padding-left: 20px;
+padding-right: 20px;
+}
+
+
+#image{display: grid;
+grid-template-columns:repeat(10,1fr);
+grid-template-rows:repeat(5,50px);
+margin-top: 50px;
+}
+.cuisine-box{grid-column: 4/8;
+grid-row: 1/6;}
+
+.cuisine-img{width:100%;
+height: 100%;}
+
+#image-two{display: grid;
+    grid-template-columns:repeat(10,1fr);
+    grid-template-rows:repeat(5,50px);
+    margin-top: 50px;
+    }
+    .fashion-box{grid-column: 4/8;
+    grid-row: 1/6;}
+    
+    .fashion-img{width:100%;
+    height: 100%;}
+
+    .fashion{margin-top:100px;}
+
+ footer {
+    background-color : #708090;
+    width : 100%;
+    padding-left: 20px;
+    margin-top: 50px;
+    }
+    .socials {
+    display : flex;
+    justify-content : flex-end;
+    gap : 20px;
+    padding-right : 10px;
+    }
+    h3{padding-top: 20px;}
+    h1, h2, h5{font-family: Arial, Helvetica, sans-serif;}
+    p{font-family: Georgia, 'Times New Roman', Times, serif;}
+    .contacts{padding-left: 2px;}
+    img{border : black solid 10px;}
+
+    
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+        nav {
+          padding: 15px;
+          background-color:#A43312;
+          flex-direction: column;
+        }
+      
+        img {
+          width: 80%; 
+          height: auto;
+          margin-bottom: 30px;}
+       
+        .button-box {
+            width: 50%; 
+            height: 50px; 
+      }
+       img {
+          width: 0%; 
+          height: auto;
+          margin-bottom: 40px;
+          padding-top: 40px;
+        }
+      }
+    
