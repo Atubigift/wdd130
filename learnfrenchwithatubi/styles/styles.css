@@ -207,6 +207,7 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
     nav {
       padding: 15px;
       background-color:#A43312;
+      display:flex;
       flex-direction: column;
     }
   
