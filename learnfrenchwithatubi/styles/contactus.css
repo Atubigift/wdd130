@@ -187,6 +187,8 @@ margin-top:-550px;
     margin-bottom: 40px;
     padding-top: 40px;
   }
+  .reach-out{display: flex;
+  flex-direction: column;}
 }
 
   
