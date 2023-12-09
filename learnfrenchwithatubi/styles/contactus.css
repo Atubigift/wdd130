@@ -111,31 +111,6 @@ margin-top:-550px;
   
   p{font-family: Georgia, 'Times New Roman', Times, serif;}
 
-  
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    
-  body {
-    font-size:14px;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  img {
-    max-width: 100%; 
-    width: auto;
-    margin-bottom: 20px;
-  }
-
-.button-box {
-  width: 100%; 
-  height: auto;
-  grid-column : 4/ 8;
-}
-  
-}
 
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -160,7 +135,8 @@ margin-top:-550px;
   height: auto;
   grid-column : 4/ 8;
 }
-  
+.reach-out{display: flex;
+  flex-direction: column;}
 }
  
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -181,14 +157,7 @@ margin-top:-550px;
       width: 50%; 
       height: 50px; 
 }
- img {
-    width: 0%; 
-    height: auto;
-    margin-bottom: 40px;
-    padding-top: 40px;
-  }
-  .reach-out{display: flex;
-  flex-direction: column;}
+ 
 }
 
   
