@@ -157,6 +157,8 @@ margin-top:-550px;
       width: 50%; 
       height: 50px; 
 }
+.reach-out{display: flex;
+  flex-direction: column;}
  
 }
 
