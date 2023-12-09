@@ -142,18 +142,9 @@ margin-top:-550px;
   text-align: center;
 }
 
-.reach-out .card-one,
-.reach-out .card-two {
-  width: 100%;
-  margin-bottom: 20px;
+
 }
 
-.reach-out .card-one img,
-.reach-out .card-two img {
-  max-width: 100%;
-  height: auto;
-}
-}
  
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
@@ -180,17 +171,7 @@ margin-top:-550px;
   text-align: center;
 }
 
-.reach-out .card-one,
-.reach-out .card-two {
-  width: 100%;
-  margin-bottom: 20px;
-}
 
-.reach-out .card-one img,
-.reach-out .card-two img {
-  max-width: 100%;
-  height: auto;
-}
  
 }
 
