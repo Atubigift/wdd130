@@ -45,7 +45,7 @@ background-color: #708090;
   }
   .card-two{margin-left:auto;
 margin-right:200px;
-margin-top:-550px;
+margin-top:-500px;
 
 }
 
@@ -61,7 +61,7 @@ margin-top:-550px;
     font-size: 18px;
   }
   
-  button {
+  .button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -70,7 +70,7 @@ margin-top:-550px;
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     font-size: 18px;
   }
   
@@ -130,18 +130,11 @@ margin-top:-550px;
     margin-bottom: 20px;
   }
 
-.button-box {
+.reach-out {
   width: 100%; 
   height: auto;
   grid-column : 4/ 8;
 }
-.reach-out {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 
 }
 
@@ -160,16 +153,11 @@ margin-top:-550px;
     height: auto;
     margin-bottom: 30px;}
  
-  .button-box {
+  .reach-out {
       width: 50%; 
       height: 50px; 
 }
- .reach-out {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+
 
 
  
